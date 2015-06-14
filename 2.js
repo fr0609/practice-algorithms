@@ -20,7 +20,9 @@ function evenFibonnacciNumbers(){
         }
 }
 
-
+return {
+  evenFibonnacciNumbers: evenFibonnacciNumbers
+}
 }());
-console.log(evenFibonnacciNumbers());
+console.log(app.evenFibonnacciNumbers());
 

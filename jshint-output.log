@@ -1,36 +1,52 @@
-12 lint errors found in /home/fr0609/Documents/euler/10.js
-  [18,11](W041) Use '===' to compare with '0'.
-  [20,13](W041) Use '===' to compare with '0'.
-  [21,13](W041) Use '===' to compare with '0'.
-  [22,13](W041) Use '===' to compare with '0'.
-  [25,14](W041) Use '===' to compare with '0'.
-  [26,18](W041) Use '===' to compare with '0'.
-  [27,18](W041) Use '===' to compare with '0'.
-  [28,19](W041) Use '===' to compare with '0'.
-  [29,19](W041) Use '===' to compare with '0'.
-  [30,19](W041) Use '===' to compare with '0'.
-  [31,19](W041) Use '===' to compare with '0'.
-  [32,19](W041) Use '===' to compare with '0'.9 lint errors found in /home/fr0609/Documents/euler/11.js
-  [4,36](W046) Don't use extra leading zeros '00'.
-  [4,44](W046) Don't use extra leading zeros '00'.
-  [5,88](W046) Don't use extra leading zeros '00'.
-  [12,32](W046) Don't use extra leading zeros '00'.
-  [12,60](W046) Don't use extra leading zeros '00'.
-  [14,60](W046) Don't use extra leading zeros '00'.
-  [15,20](W046) Don't use extra leading zeros '00'.
-  [29,10](W032) Unnecessary semicolon.
-  [30,6](W032) Unnecessary semicolon.2 lint errors found in /home/fr0609/Documents/euler/2.js
-  [9,20](W041) Use '===' to compare with '0'.
-  [25,2](W033) Missing semicolon.6 lint errors found in /home/fr0609/Documents/euler/3.js
-  [5,28](W033) Missing semicolon.
-  [6,41](W033) Missing semicolon.
-  [9,16](W004) 'isPrime' is already defined.
-  [13,17](W041) Use '===' to compare with '0'.
-  [13,39](W033) Missing semicolon.
-  [26,26](W041) Use '===' to compare with '0'.2 lint errors found in /home/fr0609/Documents/euler/5.js
-  [4,22](W041) Use '===' to compare with 'false'.
-  [7,23](W041) Use '!==' to compare with '0'.2 lint errors found in /home/fr0609/Documents/euler/7.js
-  [18,17](W004) 'isPrime' is already defined.
-  [21,20](W041) Use '===' to compare with '0'.2 lint errors found in /home/fr0609/Documents/euler/8.js
-  [27,28](W004) 'largestProduct' is already defined.
-  [46,24](W033) Missing semicolon.
+51 lint errors found in /home/fr0609/Documents/euler/15.js
+  [7,23](E020) Expected ']' to match '[' from line 7 and instead saw ','.
+  [7,23](W030) Expected an assignment or function call and instead saw an expression.
+  [7,24](W033) Missing semicolon.
+  [7,25](W030) Expected an assignment or function call and instead saw an expression.
+  [7,33](W033) Missing semicolon.
+  [7,33](E030) Expected an identifier and instead saw ']'.
+  [7,35](E033) Expected an operator and instead saw '='.
+  [7,35](W030) Expected an assignment or function call and instead saw an expression.
+  [7,36](W033) Missing semicolon.
+  [7,37](W030) Expected an assignment or function call and instead saw an expression.
+  [8,30](E020) Expected ']' to match '[' from line 8 and instead saw ','.
+  [8,30](W030) Expected an assignment or function call and instead saw an expression.
+  [8,31](W033) Missing semicolon.
+  [8,31](W030) Expected an assignment or function call and instead saw an expression.
+  [8,32](W033) Missing semicolon.
+  [8,32](E030) Expected an identifier and instead saw ']'.
+  [8,34](E033) Expected an operator and instead saw '='.
+  [8,34](W030) Expected an assignment or function call and instead saw an expression.
+  [8,35](W033) Missing semicolon.
+  [8,36](W030) Expected an assignment or function call and instead saw an expression.
+  [11,24](W004) 'i' is already defined.
+  [13,27](E020) Expected ']' to match '[' from line 13 and instead saw ','.
+  [13,27](W030) Expected an assignment or function call and instead saw an expression.
+  [13,28](W033) Missing semicolon.
+  [13,29](W030) Expected an assignment or function call and instead saw an expression.
+  [13,30](W033) Missing semicolon.
+  [13,30](E030) Expected an identifier and instead saw ']'.
+  [13,32](E033) Expected an operator and instead saw '='.
+  [13,32](W030) Expected an assignment or function call and instead saw an expression.
+  [13,33](W033) Missing semicolon.
+  [13,42](E020) Expected ']' to match '[' from line 13 and instead saw ','.
+  [13,42](W030) Expected an assignment or function call and instead saw an expression.
+  [13,43](W033) Missing semicolon.
+  [13,44](W030) Expected an assignment or function call and instead saw an expression.
+  [13,45](W033) Missing semicolon.
+  [13,45](E030) Expected an identifier and instead saw ']'.
+  [13,47](E033) Expected an operator and instead saw '+'.
+  [13,47](W030) Expected an assignment or function call and instead saw an expression.
+  [13,48](W033) Missing semicolon.
+  [13,55](E020) Expected ']' to match '[' from line 13 and instead saw ','.
+  [13,55](W030) Expected an assignment or function call and instead saw an expression.
+  [13,56](W033) Missing semicolon.
+  [13,59](W030) Expected an assignment or function call and instead saw an expression.
+  [13,60](W033) Missing semicolon.
+  [13,60](E030) Expected an identifier and instead saw ']'.
+  [13,60](W030) Expected an assignment or function call and instead saw an expression.
+  [17,31](E020) Expected ']' to match '[' from line 17 and instead saw ','.
+  [17,33](W116) Expected ')' and instead saw '0'.
+  [17,34](W033) Missing semicolon.
+  [17,34](E030) Expected an identifier and instead saw ']'.
+  [17,34](E043) Too many errors. (94% scanned).

@@ -13,5 +13,5 @@
             }
         }
 
-            console.log(grid[2,2]);
+            console.log(grid);
 } ) ();

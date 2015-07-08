@@ -19,11 +19,8 @@ var num = [
     'eighteen',
     'nineteen',
     'twenty',
-    'twenty-one',
-    'twenty-two',
-    'twenty-three',
     'thirty',
-    'forty',
+    'forty', 
     'fifty',
     'sixty',
     'seventy',
@@ -32,8 +29,28 @@ var num = [
     'one hundred and one',
     'two hundred',
     'three hundred',
-    'one thousand'
-];
+    'one thousand'];
+    var result= 0;
+    for(var i = 0; i <= 99; i++ ) {
+       if(i <= 20){
+            result += num[i].length;
+            continue;
+        }
+        else{
+            var arrayNum = i.toString().split("");
+            var arrayNumLength = arrayNum.length;
+            for (var indexNum = 0; i < arrayNumLength - 1 ; indexNum ++ ) { 
+                    if (i < 100){
+                    var index = ParseInt(IntarrayNum[indexNum]) + 16;
+                        result +=  num[index].length;   
+                    }      
 
+            };
+        }
+        
+        
+    }
+
+    console.log(result);
 
 })();

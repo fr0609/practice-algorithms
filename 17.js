@@ -41,9 +41,16 @@ var num = [
             var arrayNumLength = arrayNum.length;
             for (var indexNum = 0; i < arrayNumLength - 1 ; indexNum ++ ) { 
                     if (i < 100){
-                    var index = ParseInt(IntarrayNum[indexNum]) + 16;
+                        var index = ParseInt(arrayNum[indexNum]) + 16;
                         result +=  num[index].length;   
-                    }      
+                    }
+
+                  /*  if (i => 100){
+                        var index = ParseInt(arrayNum[indexNum]) + 16;
+                        result +=  num[index].length;   
+                    }*/
+                       
+
 
             };
         }

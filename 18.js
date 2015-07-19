@@ -1,4 +1,5 @@
 (function (){
+
 		var triangle =	[ [75],
 						[95, 64],
 					  [17, 47, 82],
@@ -14,13 +15,14 @@
 	[91, 71, 52, 38, 17, 14, 91, 43, 58, 50, 27, 29, 48],
   [63, 66, 04, 68, 89, 53, 67, 30, 73, 16, 69, 87, 40, 31],
 [04, 62, 98, 27, 23, 09, 70, 98, 73, 93, 38, 53, 60, 04, 23]];
+	
 	var sum = 0;
-	for (var i = 0; i < triangle.length; i++) {
-		 var row = triangle[i];
+	function path(i, j){
+		if (i == triangle.length) return 0;
+		else{
+			return triangle[i][j] + Math.max(path(i+1, j), path(i+1,j+1));
+		}
 
-		 if( i == 0 || i == 1) sum += row[0];
-		 else sum += row[i-1];
-	};
-
-console.log(sum);
+	}
+	console.log(path(0,0));
 })();

@@ -16,8 +16,8 @@
   [63, 66, 04, 68, 89, 53, 67, 30, 73, 16, 69, 87, 40, 31],
 [04, 62, 98, 27, 23, 09, 70, 98, 73, 93, 38, 53, 60, 04, 23]];
 	
-	var sum = 0;
 	function path(i, j){
+		debugger;
 		if (i == triangle.length) return 0;
 		else{
 			return triangle[i][j] + Math.max(path(i+1, j), path(i+1,j+1));
